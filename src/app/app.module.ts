@@ -4,13 +4,16 @@ import { NgModule } from '@angular/core';
 import { AppComponent } from './app.component';
 import { TodayComponent } from './today/today.component';
 
+import { HttpClientModule } from '@angular/common/http'; //necessario para consumir a api
+
 @NgModule({
   declarations: [
     AppComponent,
     TodayComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
