@@ -1,8 +1,14 @@
 # Wheather
-
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 9.0.6.
-This project consists in a reprodution of a Angular Tutorial
-
+----------
+This project consists in a reprodution of an Angular Tutorial:
+ -------
+Parte 1  https://www.youtube.com/watch?v=dVidU2JUwfI&t=11397s
+<br>
+Parte 2  https://www.youtube.com/watch?v=9sWKK5M877w
+<br>
+Parte 3  https://www.youtube.com/watch?v=nFK7uGzU81U&t=2868s
+---------
 ## Development server
 
 Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The app will automatically reload if you change any of the source files.
