@@ -16,13 +16,23 @@ export class WheatherService {
       const params = new HttpParams()
       .set('lat', lat)
       .set('lon', lon)
-      .set('units', 'metrics')
+      .set('units', 'metric')
       .set('appid', this.apiKey);
 
   return this.http.get(this.url, { params });
 
   //preciso entender melhor esta parte, este método.
 }
+
+  getWeatherDataByCityName(city: string){
+    //definir os parametros da url
+    const params = new HttpParams()
+      .set('q', city)
+      .set('units','metric')
+      .set('appid', this.apiKey);
+
+      return this.http.get(this.url, { params });
+  }
 
 
 }
